@@ -4,14 +4,14 @@ import {
     carsReducer,
     addCar,
     removeCar,
-    changeSearchTerm
+    changeSearchTerm,
 } from './slices/carSlice'
 
 import {
     formReducer,
     changeName,
-    changeCost
-} from './slices/formSlices';
+    changeCost,
+} from './slices/formSlice';
 
 const store = configureStore({
     reducer: {
